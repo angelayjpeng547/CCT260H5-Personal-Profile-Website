@@ -1,0 +1,305 @@
+/* Background Colour */
+body {
+  /* The background colour for the website is pink. */
+  background-color: #fec0cb; 
+} 
+/* Heading 1 Style Note, this is a class*/
+.Heading1 {
+	/* Colour of the text for .Heading1 is #303030. */
+	color: #303030;
+	/* Font type for .Heading1 is Times New Roman. */
+	font-family: Times New Roman, "serif";
+	/* Margin for .Heading1 is 16 px. */
+	margin: 16px;
+	/* Font size for .Heading1 is 30 px. */
+	font-size: 30px;
+}
+/* Heading 2 Style Note, this is a class. */
+.Heading2 {
+	/* Colour of the text for .Heading2 is #303030, similar to .Heading1. */
+	color: #303030;
+	/* Font type for .Heading2 is TImes New Roman, also similar to .Heading1. */
+	font-family: Times New Roman, "serif";
+	/* Margin for .Heading2 is 16 px, also similar to .Heading1. */
+	margin: 16px;
+	/* Font size for .Heading2 is 25 px, but the size is smaller than .Heading1. */
+	font-size: 25px;
+}
+/* Heading 3 Style */
+h3 {
+	/* Colour of the text for h3 is #303030, similar to .Heading1 and .Heading2. */
+	color: #303030;
+	/* Font type for h3 is Times New Roman, also similar to .Heading1 and .Heading2. */
+	font-family: Times New Roman, "serif";
+	/* Margin for h3 is 16 px, also similar to .Heading1 and .Heading2. */
+	margin: 16px;
+	/* Font size for h3 is 22 px, but the size is smaller than both .Heading1 and .Heading2. */
+	font-size: 22px;
+}
+/* Paragraph and List Styles */
+p,li {
+	/* Colour of the text for p is #303030, similar to .Heading1, .Heading2 and h3. */
+	color: #303030;
+	/* Margin for p is 16px, also similar to .Heading1, .Heading2 and h3. */
+	margin: 16px;
+	/* Line spacing for p is 25 px. */
+	line-height: 25px;
+	/* Font type for p is Times New Roman, also similar to .Heading1, .Heading2 and h3. */
+	font-family: Times New Roman;
+	/* Font size for p is 20 px, but the size is smaller than both .Heading1, .Heading2 and h3. */
+	font-size: 20px;
+}
+/* Unordered List Styles */
+ul li {
+	/* The list style of unordered list is square bullets. */
+	list-style-type: square;
+	/* Adds space inside the unordered list with 8 px. */
+	padding-left: 8px;
+}
+/* Ordered List Styles */
+ol li{
+	/* The list style of unordered list is numerical number (1, 2, 3, etc). */
+	list-style-type: decimal;
+	/* Adds space inside the ordered list with 8 px. */
+	padding-left: 8px;
+}
+/* Ordered and Unordered List Styles */
+ul, ol{
+	margin-left: 20px;
+}
+/* Span Style*/
+span {
+	/* The text inside span is very large, which is 140 px. */
+	font-size: 140px;
+	/* float right; */
+	/* Centres inline text inside the span. */
+	text-align: center;
+	/* The text colour of the span is white. */
+    color: #fff;
+	/* The span is 50% opacity, meaning it is half transparent. */
+	opacity: 0.5;
+	/* Adds 230 px of space above the span. */
+	margin-top: 230px;
+}
+/* Top Navigation Bar Styles */
+.topnav {
+  /* Hides anything if it extends outside the navigation bar’s boundaries. */
+  overflow: hidden;
+  /* The background colour of the top navigation bar is white. */
+  background-color: white;
+}
+
+/* Top Navigation Bar Link  Styles */
+.topnav a {
+  /* The navigation bar is located on the right side of the website. */
+  float: right;
+  /* The text colour of the navigation bar is #2b2b2b. */
+  color: #2b2b2b;
+  /* Centres the inline text inside the link box. */
+  text-align: center;
+  /* Adds space inside the top navigation link with 14 px for top and bottom padding with 16 px for left and right padding. */
+  padding: 14px 16px;
+  /* Removes the default underline from links. */
+  text-decoration: none;
+  /* Font type for .topnav a is Times New Roman. */
+  font-family: Times New Roman;
+  /* Font size for .topnav a is 20 px. */
+  font-size: 20px;
+}
+/* Top Navigation Style for font when it is hovered */
+.topnav a:hover {
+  /* The background colour of the top navigation bar is white. */
+  background-color: #ddd;
+  /* The text colour of the navigation bar is black. */
+  color: black;
+}
+/* Top Navigation Style for active class styles. */
+.topnav a.active {
+ /* Top Navigation Style active class background colour. */
+  background-color: deeppink;
+ /* The colour of the Top Navigation bar is white. */
+  color: white;
+}
+
+/* Profile Picture Style using ids */
+#profile-photo {
+	/* The width of the profile image is 120 px. */
+	width: 120px;
+	/* Moves the image to the right side of the website. */
+	float: right;
+	/* Adds 20 px of space to the left of the profile photo. */
+	margin-left: 20px;
+	/* Adds 1 px of space inside of the profile image's border. */
+	padding: 1px;
+	/* Adds 1 px solid border across the profile image with #ccc colour. */
+	border: 1px solid #ccc;
+}
+/* Footer Style using ids */
+#footer {
+   /* Positions  the footer relative to its normal position in the document flow. */
+   position: relative;
+   /*  Sets the left edge of the footer to be at the left edge of its containing block. */
+   left: 0;
+   /*  Positions the footer at the bottom of the website. */
+   bottom: 0;
+   /* The footer should take up the full width of the website. */
+   width: 100%;
+   /* Adds 10 px space on all sides (top, right, bottom, left) inside the footer between the content of the footer and the footer's edges. */
+   padding: 10px;
+   /* The background colour of the footer is red. */
+   background-color: red;
+   /* The text colour for the footer is white. */
+   color: white;
+   /* Centres the inline text inside the footer. */
+   text-align: center;
+   /* Font type for #footer is Times New Roman. */
+   font-family: Times New Roman;
+}
+/* .test Styles */
+.test {
+	/* The  height of .test is 300 px. */
+	height: 300px;
+	/* The .test should take up the full width of the website. */
+	width: 100%;
+	/* The background image of .test. */
+	background-image: url("Photos/nightsky.jpg");
+	/* The background image fill the entire .test, covering it completely. */
+	background-size: cover;
+	/* Positions the center of the background image at the center of .test — both horizontally and vertically. */
+	background-position: center;
+}
+/* Flip Card Styles */
+.flip-card {
+  /* Background colour of the flip card */
+  background-color: transparent;
+  /* The width of the flip card is measured 300 px */
+  width: 300px;
+  /* The height of the flip card is measured 400 px */
+  height: 400px;
+ /* The perspective is 1000 px, creating a 3D perspective effect on elements*/
+  perspective: 1000px;
+}
+
+/* Flip Card Inner Style */
+.flip-card-inner {
+  /* The flip-card inner element the positioning reference for any absolutely positioned children */
+  position: relative;
+  /* The inner flip card style should take up the full width of the website. */
+  width: 100%;
+  /* The height of the inner flip card style is 100%. */
+  height: 100%;
+  text-align: center;
+  /* Adds a smooth animation when the card rotates. */
+  transition: transform 0.6s;
+  /* Tells the browser to keep child elements in 3D space when the parent is transformed */
+  transform-style: preserve-3d;
+  /* Adds a shadow around the inner flip card, giving it depth. This shadow helps the card look more like a real physical card and visually lifts it off the background. */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+/* Flip Card Inner Style When Hovered */
+.flip-card:hover .flip-card-inner {
+  /* rotates the flip card 180 degrees around the vertical (Y) axis */
+  transform: rotateY(180deg);
+}
+/* Flip Card Flip Styles */
+.flip-card-front, .flip-card-back {
+  /* Positions the front and back exactly on top of each other inside the card to ensures the front and back overlap perfectly. */
+  position: absolute;
+  /* The width of the fron and back of the flip card is 100%. */
+  width: 100%;
+  /* The height of the fron and back of the flip card is 100%. */
+  height: 100%;
+  /* Hides the side of the card that is facing away from the viewer when the card rotates. */
+  -webkit-backface-visibility: hidden;
+  /* Hides the side of the card that is facing away from the viewer when the card rotates. */
+  backface-visibility: hidden;
+}
+/* Front of the Flip Card Styles */
+.flip-card-front {
+  /* The background colour of the front of the card is #bbb. */
+  background-color: #bbb;
+  /* The text colour of the front of the card is black. */
+  color: black;
+}
+/* Back of the Flip Card Styles */
+.flip-card-back {
+  /* The background colour of the back of the card is light pink. */
+  background-color: lightpink;
+  /* The font colour for the heading of the back of the flip card is white */
+  color: white;
+  /* rotates the flip card 180 degrees around the vertical (Y) axis */
+  transform: rotateY(180deg);
+}
+
+/* Table Styles */
+table {
+  font-family: Times New Roman, sans-serif;
+  /* Adjacent cell borders of the table are merged into a single, continuous border where they meet, creating a more uniform appearance for the table. */
+  border-collapse: collapse;
+  /* The table should take up the full width of the website */
+  width: 100%;
+}
+/* Table Cells and Header Cells Styles */
+td, th {
+  /* Adds a 1-pixel solid border around each table cell. */
+  border: 1px solid #dddddd;
+  /* Aligns the text inside each cell to the left. */
+  text-align: left;
+  /* Adds space inside the unordered list with 8 px. */
+  padding: 8px;
+}
+/* Even numbered Cells Style */
+tr:nth-child(even) {
+  /* The background colour for every even-numbered table row is #dddddd */
+  background-color: #dddddd;
+}
+/* Table Border Style*/
+table, th, td {
+  /* Adds a 1-pixel solid black border around the table and all its cells. */
+  border: 1px solid black; 
+}
+
+/* Form Styles */
+/* The form should take up the full width of the website*/
+form {
+ width: 100%
+}
+/* Border Styles for the Form */
+form {
+  /* Rounds the corners of the form by 5 pixels */
+  border-radius: 5px;
+  /* Sets the background color of the form to pink */
+  background-color: #fec0cb;
+  /* Adds space inside the form with 5 px */
+  padding: 5px;
+}
+/* Label Style */
+label {display: block;}
+/* Input and Select Styles */
+input[type=text], select {
+  /* The width of the input or select box is  50%. */ 
+  width: 50%;
+  /* Adds space inside the form with 5 px */
+  padding: 5px;
+  /* Adds vertical spacing above and below the field (8 pixels) and no horizontal margin. */
+  margin: 8px 0;
+  /* Allows the element to behave like a block element horizontally but still sit inline with other elements. */
+  display: inline-block;
+  /* Adds 1 px #ccc around the field. */
+  border: 1px solid #ccc;
+  /* Rounds the corners of the input by 4 pixels. */
+  border-radius: 4px;
+  /* Change how the width and height are calculated. */
+  box-sizing: border-box;
+}
+/* Submit button*/
+input[type=submit]:hover {
+  /* Colour of the submit button is hot pink when hovering it*/
+  background-color: hotpink;
+}
+form {
+  /* Background of the form should be the same colour as the background of the website */
+  background-color: pink;
+  /* Border of the type boxes */
+  border: 2px solid black;
+}
